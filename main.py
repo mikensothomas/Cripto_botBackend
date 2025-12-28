@@ -27,7 +27,7 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "https://cripto-botfrontend.onrender.com",
+        "https://cripto-botfrontend.onrender.com/", 
     ],
     allow_credentials=True,
     allow_methods=["*"],
