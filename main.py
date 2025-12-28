@@ -29,7 +29,7 @@ bot_thread = None
 
 @app.get("/")
 def home():
-    return {"status": "API Binance Bot ativa"}
+    return {"status": "API Binance Bot ativa."}
 
 @app.post("/start")
 def start_bot():
