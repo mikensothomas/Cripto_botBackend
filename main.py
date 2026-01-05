@@ -8,6 +8,7 @@ import asyncio
 from binance.client import Client
 from dotenv import load_dotenv
 import os
+import uvicorn
 
 load_dotenv()
 
@@ -79,4 +80,3 @@ async def btc_price(ws: WebSocket):
             "price": float(price["price"])
         })
         await asyncio.sleep(1)
-
