@@ -16,8 +16,8 @@ symbol = "BTCBRL"
 currency_btc = "BTC"
 currency_brl = "BRL"
 
-percentage_to_buy = 3
-percentage_to_sell = 5
+percentage_to_buy = 1
+percentage_to_sell = 2
 TAKE_PROFIT = 1.05
 STOP_LOSS = 0.97
 
